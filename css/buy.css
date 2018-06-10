@@ -1,0 +1,46 @@
+﻿#con h1 {
+    border-bottom: 4px double #00d45a;
+}
+
+#slide img {
+    border-bottom: 5px solid #00d45a;
+    border-top: 5px solid #00d45a;
+}
+
+#one ul li a, #two ul li a, #thr ul li a {
+    text-decoration: none;
+    color: #666;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 1445px) {
+    #one, #two, #thr {
+        float: left;
+        width: 31%;
+        height: 300px;
+        display: inline-block;
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 1445px)and (min-width: 1013px) {
+    #one, #two, #thr {
+        float: left;
+        width: 30%;
+        height: 300px;
+        display: inline-block;
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 1013px) {
+    #one, #two, #thr {  
+        clear:both;
+        width:95%;
+        height: 300px;
+        display: inline-block;
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+  
+}

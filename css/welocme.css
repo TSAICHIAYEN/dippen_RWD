@@ -1,0 +1,209 @@
+﻿ ::selection {
+        background: #666; /* Safari */
+        color: #ffffff;
+    }
+
+    ::-moz-selection {
+        background: #02b6c8; /* Firefox */
+        color: #ffffff;
+    }
+    body{
+        margin:0;
+        padding:0;
+    }
+     /*-----------四張圖片背景置換----------------*/
+     #i1,#i2,#i3,#i4{
+         display:none;
+     }
+    #i1 {
+        background: url(../img/welcome_img/11.jpg)  center center no-repeat;
+        background-size: cover;
+        background-size: 130px 500px;
+    }
+
+        #i1:hover {
+            background: url(../img/welcome_img/1.jpg)  center center no-repeat;
+            background-size: cover;
+            background-size: 130px 500px;
+        }
+
+    #i2 {
+        background: url(../img/welcome_img/22.jpg) center center no-repeat;
+        background-size: 130px 500px;
+    }
+
+        #i2:hover {
+            background: url(../img/welcome_img/2.jpg) center center no-repeat;
+            background-size: 130px 500px;
+        }
+
+    #i3 {
+        background: url(../img/welcome_img/33.jpg) center center no-repeat;
+        background-size: 130px 500px;
+    }
+
+        #i3:hover {
+            background: url(../img/welcome_img/3.jpg) center center no-repeat;
+            background-size: 130px 500px;
+        }
+
+    #i4 {
+        background: url(../img/welcome_img/44.jpg) center center no-repeat;
+        background-size: 130px 500px;
+    }
+
+        #i4:hover {
+            background: url(../img/welcome_img/4.jpg) center center no-repeat;
+            background-size: 130px 500px;
+        }
+
+
+
+
+@media screen and (min-width: 710px) {
+    #wrapper {
+        width: 80%;
+        height: 700px;
+        margin: 0px auto;
+    }
+    #page {
+        width: 565px;
+        height: 510px;
+        margin: 100px auto;
+        margin-bottom: 60px;
+    }
+        #page a {
+            text-decoration: none;
+        }
+
+    .picset {/*-----------四張圖片設定----------------*/
+        display: inline-block;
+        width: 130px;
+        height: 500px;
+        margin: 0px 3px;
+    }
+    #footer {
+        width: 100%;
+        border-top: 2px solid #808080;
+        text-align: center;
+        color: #808080;
+        font: 200 12px serif;
+        margin: 0px;
+        padding: 0px;
+    }
+        #footer p {
+            letter-spacing: 2px;
+            line-height: 0px;
+        }
+}
+
+@media screen and  (min-width:575px) and (max-width: 709px) {
+    #wrapper {
+        width: 100%;
+        height: 700px;
+        margin: 0px auto;
+    }
+    #page {
+        width: 565px;
+        height: 510px;
+        margin: 100px auto;
+        margin-bottom: 60px;
+    }
+        #page a {
+            text-decoration: none;
+        }
+    .picset { /*-----------四張圖片設定----------------*/
+        display: inline-block;
+        width: 130px;
+        height: 500px;
+        margin: 0px 3px;
+    }
+    #footer {
+        width: 100%;
+        border-top: 2px solid #808080;
+        text-align: center;
+        color: #808080;
+        font: 200 12px serif;
+        margin: 0px;
+        padding: 0px;
+    }
+        #footer p {
+            letter-spacing: 2px;
+            line-height: 0px;
+        }
+}
+@media screen and (max-width: 574px) and (min-width: 315px) {
+    #wrapper {
+        width: 100%;
+        height: 700px;
+        margin: 0px auto;
+    }
+    #page {
+        width:100%;
+        margin:0px auto;
+    }
+        a {
+            text-decoration: none;
+        }
+    
+    .picset {/*-----------四張圖片設定----------------*/
+        position:relative;
+        display: inline-block;
+        width: 24%;
+        height:500px;
+        max-height: 500px;
+        margin: 0px auto;
+        text-align:center;
+    }
+    #footer {
+        width: 100%;
+        border-top: 2px solid #808080;
+        text-align: center;
+        color: #808080;
+        font: 200 12px serif;
+        margin: 0px;
+        padding: 0px;
+    }
+        #footer p {
+            letter-spacing: 2px;
+            line-height: 0px;
+        }
+}
+
+@media screen and (max-width:314px) {
+    #wrapper {
+        width: 100%;
+        height: 700px;
+        margin: 0px auto;
+    }
+    #page {
+        width:100%;
+        margin:0px 0;
+    }
+        a {
+            text-decoration: none;
+        }
+    
+    .picset {/*-----------四張圖片設定----------------*/
+        position:relative;
+        display: inline-block;
+        width: 23.6%;
+        height:500px;
+        max-height: 500px;
+        margin: 0px auto;
+        text-align:center;
+    }
+    #footer {
+        width: 100%;
+        border-top: 2px solid #808080;
+        text-align: center;
+        color: #808080;
+        font: 200 12px serif;
+        margin: 0px;
+        padding: 0px;
+    }
+        #footer p {
+            letter-spacing: 2px;
+            line-height: 0px;
+        }
+}
